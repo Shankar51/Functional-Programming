@@ -12,6 +12,10 @@ class ConsumerExample1 implements Consumer<Integer>{
 		
 	}
 	
+	public void add() {
+		System.out.println("Hello");
+	}
+	
 }
 public class Example1 {
 	
